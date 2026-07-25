@@ -209,7 +209,7 @@ fun AdminPanelScreen(
                     Spacer(modifier = Modifier.height(6.dp))
 
                     Text(
-                        text = "Set a custom personal admin password to replace the default 'homelink002'.",
+                        text = "Set a custom personal admin password for portal security access.",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )

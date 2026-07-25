@@ -41,7 +41,7 @@ fun HomeLinkTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = Color(0xFF0B192C).toArgb() // Tech Navy Blue status bar
+            window.statusBarColor = Color(0xFF000000).toArgb() // Pure Black status bar
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = false
         }
     }
